@@ -1,0 +1,12 @@
+<div class='content'>
+  <div class='left'>
+    <img class='nav' src='images/shdLogo.png' />
+    <div class='nav spacer'>All contents &copy; copyright 2012</div>
+  </div>
+
+  <div class='right'>
+    <div class='nav'><a href='/#/about'>About</a></div>
+    <div class='nav'><a href='/#/events'>Events</a></div>
+    <div class='nav'><a href='/#/Contact'>Contact</a></div>
+  </div>
+</content>

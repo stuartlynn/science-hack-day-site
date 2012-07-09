@@ -1,0 +1,239 @@
+@import './mixin'
+
+darkColor= #1F1F1F
+lightColor= #F2F2F2
+
+.stack > *:not(.active) 
+  display: none
+
+ul 
+  list-style: none
+
+.content
+  width: 1170px
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%
+
+a
+  color : white
+  text-decoration: none
+
+html,body
+  background-color: lightColor
+  font-family: "Merriweather"
+  width: 100%
+  height: 100%
+  padding: 0px
+  margin: 0px
+  #headerController 
+    width: 100%
+    background-color: darkColor
+    height: 200px
+    padding: 0px
+    margin: 0px
+    color: white 
+    background-repeat: no-repeat
+    background-position: top center
+    position: relative 
+
+    .content 
+      border-box()
+      padding: 63px 83px 63px 83px
+      position: relative 
+      z-index: 0
+      .hackInfo
+        position: absolute 
+        bottom: 50px
+        left: 80px
+        h1
+          font-size: 40px
+          margin-bottom: 0px
+          padding-bottom: 0px
+        p
+          font-size: 14px
+          margin: 0px
+          padding: 0px
+      .left 
+        float:left 
+      .right
+        float:right
+      .nav
+        display: inline-block
+        vertical-align: middle
+        font-weight: 700
+        margin-right: 20px
+        font-size: 12px
+    .bottom
+      background-color: lightColor
+      width: 1170px
+      height: 25px
+      position: relative
+      top: -25px
+      margin-left: auto
+      margin-right: auto
+      
+
+
+  #footerController 
+    width: 100%
+    background-color: darkColor
+    height: 98px
+    color: white 
+    .content 
+      border-box()
+      padding: 25px 83px 25px 83px
+    .left 
+      float:left 
+    .right
+      float:right
+    .nav
+      display: inline-block
+      vertical-align: middle
+      font-weight: 700
+      margin-right: 20px
+      font-size: 12px
+
+  .eventsController
+    z-index: 0
+    >.content 
+      border-box()
+      z-index: 2
+      padding : 63px 100px 140px 100px
+      text-align: center
+      h2,h1
+        font-weight: 200
+      p
+        margin-left:auto
+        margin-right: auto
+        width: 642px
+        font-size: 12px
+      ul
+        padding: 64px 0px
+        width: 100%
+        li
+          width: 240px
+          display: inline-block
+          vetical-align: top
+          text-align: center
+          margin: 0px 50px 72px 0px
+
+          img 
+            margin: 0px 0px 10px 0px
+            padding:0px
+          h2
+            font-size: 34px
+            margin: 0px 0px 0px 0px
+            padding:0px
+            width: 100%
+          p 
+            font-size: 10px 
+            width: 100%
+            margin: 0px
+            padding: 0px
+
+  .aboutController
+    z-index: 0
+    >.content 
+      border-box()
+      z-index: 2
+      padding : 70px 100px 140px 100px
+      text-align: center
+      h2,h1
+        font-weight: 200
+        font-size: 32px
+      p
+        margin-left:auto
+        margin-right: auto
+        width: 642px
+        font-size: 12px
+      img 
+        margin: 50px 0px 75px 0px
+      .section
+        width: 660px
+        margin-left: auto
+        margin-right: auto
+        text-align: left
+        h3
+          font-size: 12px
+        p
+          font-size: 9px
+          line-height: 15px
+          text-align: left
+          margin: 0px
+          padding: 0px
+    .lower
+      border-box()
+      background-color: #1F1F1F
+      height: 390px
+      width: 100%
+      color: white
+
+      .orginize
+        
+        text-align: center
+        width: 600px 
+        margin-top: 200px
+        margin-left: auto 
+        margin-right: auto
+        h2
+          font-weight: 100
+          font-size: 40px
+        p
+          font-weight: 100
+          font-size: 18px
+        .button
+          border-box()
+          background-color: #DEDEDE
+          border-radius(2px)
+          padding: 15px 55px 15px 55px
+          color: #212121
+          width: 235px
+          height: 50px
+          margin-left: auto
+          margin-right: auto
+
+  .hacksController
+    z-index: 0
+    text-align: center
+    >.content 
+      border-box()
+      z-index: 2
+      padding : 70px 100px 140px 100px
+      text-align: center
+      h2,h1
+        font-weight: 200
+      p
+        margin-left:auto
+        margin-right: auto
+        width: 642px
+        font-size: 12px
+      ul
+        padding: 0px
+        width: 930px
+        margin-top: 95px
+        li
+          width: 100%
+          margin-right: 90px
+          text-align: left
+          margin-bottom: 40px
+          img 
+            margin: 0px 20px 0px 0px
+            padding:0px
+            display: inline-block
+            vertical-align: top
+          .info
+            display: inline-block
+            vertical-align: top
+            h2
+              font-size: 13px
+              font-weight: 600
+              margin: 0px 0px 10px 0px
+              padding:0px
+              width: 100%
+            p 
+              font-size: 10px 
+              width: 580px
+          
+            padding: 0px
+
