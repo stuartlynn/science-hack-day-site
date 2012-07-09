@@ -1,0 +1,338 @@
+.stack > *:not(.active) {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+.content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+html,
+body {
+  background-color: #f2f2f2;
+  font-family: "Merriweather";
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+html #headerController,
+body #headerController {
+  width: 100%;
+  background-color: #1f1f1f;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+html #headerController .content,
+body #headerController .content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 63px 83px 63px 83px;
+  position: relative;
+  z-index: 0;
+}
+html #headerController .content .hackInfo,
+body #headerController .content .hackInfo {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+}
+html #headerController .content .hackInfo h1,
+body #headerController .content .hackInfo h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+html #headerController .content .hackInfo p,
+body #headerController .content .hackInfo p {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+html #headerController .content .left,
+body #headerController .content .left {
+  float: left;
+}
+html #headerController .content .right,
+body #headerController .content .right {
+  float: right;
+}
+html #headerController .content .nav,
+body #headerController .content .nav {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  margin-right: 20px;
+  font-size: 12px;
+}
+html #headerController .bottom,
+body #headerController .bottom {
+  background-color: #f2f2f2;
+  width: 1170px;
+  height: 25px;
+  position: relative;
+  top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+html #footerController,
+body #footerController {
+  width: 100%;
+  background-color: #1f1f1f;
+  height: 98px;
+  color: #fff;
+}
+html #footerController .content,
+body #footerController .content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 25px 83px 25px 83px;
+}
+html #footerController .left,
+body #footerController .left {
+  float: left;
+}
+html #footerController .right,
+body #footerController .right {
+  float: right;
+}
+html #footerController .nav,
+body #footerController .nav {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  margin-right: 20px;
+  font-size: 12px;
+}
+html .eventsController,
+body .eventsController {
+  z-index: 0;
+}
+html .eventsController >.content,
+body .eventsController >.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 63px 100px 140px 100px;
+  text-align: center;
+}
+html .eventsController >.content h2,
+body .eventsController >.content h2,
+html .eventsController >.content h1,
+body .eventsController >.content h1 {
+  font-weight: 200;
+}
+html .eventsController >.content p,
+body .eventsController >.content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 642px;
+  font-size: 12px;
+}
+html .eventsController >.content ul,
+body .eventsController >.content ul {
+  padding: 64px 0px;
+  width: 100%;
+}
+html .eventsController >.content ul li,
+body .eventsController >.content ul li {
+  width: 240px;
+  display: inline-block;
+  vetical-align: top;
+  text-align: center;
+  margin: 0px 50px 72px 0px;
+}
+html .eventsController >.content ul li img,
+body .eventsController >.content ul li img {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+}
+html .eventsController >.content ul li h2,
+body .eventsController >.content ul li h2 {
+  font-size: 34px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+}
+html .eventsController >.content ul li p,
+body .eventsController >.content ul li p {
+  font-size: 10px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+html .aboutController,
+body .aboutController {
+  z-index: 0;
+}
+html .aboutController >.content,
+body .aboutController >.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 70px 100px 140px 100px;
+  text-align: center;
+}
+html .aboutController >.content h2,
+body .aboutController >.content h2,
+html .aboutController >.content h1,
+body .aboutController >.content h1 {
+  font-weight: 200;
+  font-size: 32px;
+}
+html .aboutController >.content p,
+body .aboutController >.content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 642px;
+  font-size: 12px;
+}
+html .aboutController >.content img,
+body .aboutController >.content img {
+  margin: 50px 0px 75px 0px;
+}
+html .aboutController >.content .section,
+body .aboutController >.content .section {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+html .aboutController >.content .section h3,
+body .aboutController >.content .section h3 {
+  font-size: 12px;
+}
+html .aboutController >.content .section p,
+body .aboutController >.content .section p {
+  font-size: 9px;
+  line-height: 15px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+html .aboutController .lower,
+body .aboutController .lower {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  height: 390px;
+  width: 100%;
+  color: #fff;
+}
+html .aboutController .lower .orginize,
+body .aboutController .lower .orginize {
+  text-align: center;
+  width: 600px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+html .aboutController .lower .orginize h2,
+body .aboutController .lower .orginize h2 {
+  font-weight: 100;
+  font-size: 40px;
+}
+html .aboutController .lower .orginize p,
+body .aboutController .lower .orginize p {
+  font-weight: 100;
+  font-size: 18px;
+}
+html .aboutController .lower .orginize .button,
+body .aboutController .lower .orginize .button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #dedede;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 15px 55px 15px 55px;
+  color: #212121;
+  width: 235px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+html .hacksController,
+body .hacksController {
+  z-index: 0;
+  text-align: center;
+}
+html .hacksController >.content,
+body .hacksController >.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 70px 100px 140px 100px;
+  text-align: center;
+}
+html .hacksController >.content h2,
+body .hacksController >.content h2,
+html .hacksController >.content h1,
+body .hacksController >.content h1 {
+  font-weight: 200;
+}
+html .hacksController >.content p,
+body .hacksController >.content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 642px;
+  font-size: 12px;
+}
+html .hacksController >.content ul,
+body .hacksController >.content ul {
+  padding: 0px;
+  width: 930px;
+  margin-top: 95px;
+}
+html .hacksController >.content ul li,
+body .hacksController >.content ul li {
+  width: 100%;
+  margin-right: 90px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+html .hacksController >.content ul li img,
+body .hacksController >.content ul li img {
+  margin: 0px 20px 0px 0px;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+html .hacksController >.content ul li .info,
+body .hacksController >.content ul li .info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+}
+html .hacksController >.content ul li .info h2,
+body .hacksController >.content ul li .info h2 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  width: 100%;
+}
+html .hacksController >.content ul li .info p,
+body .hacksController >.content ul li .info p {
+  font-size: 10px;
+  width: 580px;
+}
