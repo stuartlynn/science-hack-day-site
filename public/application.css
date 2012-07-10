@@ -55,6 +55,8 @@ body #headerController .content .hackInfo h1 {
   font-size: 40px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  font-weight: 200;
+  text-shadow: 0px 1px 6px #000;
 }
 html #headerController .content .hackInfo p,
 body #headerController .content .hackInfo p {
@@ -69,9 +71,11 @@ body #headerController .content .left {
 html #headerController .content .right,
 body #headerController .content .right {
   float: right;
+  margin-top: 15px;
 }
 html #headerController .content .nav,
 body #headerController .content .nav {
+  font-family: "Open Sans";
   display: inline-block;
   vertical-align: middle;
   font-weight: 700;
@@ -109,6 +113,7 @@ body #footerController .left {
 html #footerController .right,
 body #footerController .right {
   float: right;
+  margin-top: 12px;
 }
 html #footerController .nav,
 body #footerController .nav {
@@ -171,10 +176,11 @@ body .eventsController >.content ul li h2 {
 }
 html .eventsController >.content ul li p,
 body .eventsController >.content ul li p {
-  font-size: 10px;
+  font-size: 12px;
   width: 100%;
   margin: 0px;
   padding: 0px;
+  font-family: "Open Sans";
 }
 html .aboutController,
 body .aboutController {
@@ -195,6 +201,7 @@ html .aboutController >.content h1,
 body .aboutController >.content h1 {
   font-weight: 200;
   font-size: 32px;
+  margin-bottom: 10px;
 }
 html .aboutController >.content p,
 body .aboutController >.content p {
@@ -202,10 +209,12 @@ body .aboutController >.content p {
   margin-right: auto;
   width: 642px;
   font-size: 12px;
+  font-family: "Open Sans";
+  line-height: 18px;
 }
 html .aboutController >.content img,
 body .aboutController >.content img {
-  margin: 50px 0px 75px 0px;
+  margin: 50px 0px 35px 0px;
 }
 html .aboutController >.content .section,
 body .aboutController >.content .section {
@@ -216,15 +225,19 @@ body .aboutController >.content .section {
 }
 html .aboutController >.content .section h3,
 body .aboutController >.content .section h3 {
-  font-size: 12px;
+  font-size: 18px;
+  font-family: "Merriweather";
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 html .aboutController >.content .section p,
 body .aboutController >.content .section p {
-  font-size: 9px;
-  line-height: 15px;
+  font-size: 12px;
+  line-height: 20px;
   text-align: left;
-  margin: 0px;
+  margin: 0px 0px 30px 0px;
   padding: 0px;
+  font-family: "Open Sans";
 }
 html .aboutController .lower,
 body .aboutController .lower {
@@ -309,6 +322,7 @@ body .hacksController >.content ul li {
   margin-right: 90px;
   text-align: left;
   margin-bottom: 40px;
+  position: relative;
 }
 html .hacksController >.content ul li img,
 body .hacksController >.content ul li img {
@@ -321,7 +335,9 @@ html .hacksController >.content ul li .info,
 body .hacksController >.content ul li .info {
   display: inline-block;
   vertical-align: top;
-  padding: 0px;
+  max-height: 214px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
 }
 html .hacksController >.content ul li .info h2,
 body .hacksController >.content ul li .info h2 {
@@ -333,6 +349,75 @@ body .hacksController >.content ul li .info h2 {
 }
 html .hacksController >.content ul li .info p,
 body .hacksController >.content ul li .info p {
-  font-size: 10px;
+  font-size: 12px;
   width: 580px;
+  line-height: 20px;
+  font-family: "Open Sans";
+}
+html .hacksController >.content ul li a,
+body .hacksController >.content ul li a {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  color: #000;
+  font-size: 12px;
+  padding: 0px;
+}
+html .hackShowController,
+body .hackShowController {
+  z-index: 0;
+}
+html .hackShowController >.content,
+body .hackShowController >.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 70px 100px 140px 100px;
+  text-align: center;
+}
+html .hackShowController >.content h2,
+body .hackShowController >.content h2,
+html .hackShowController >.content h1,
+body .hackShowController >.content h1 {
+  font-weight: 200;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+html .hackShowController >.content p,
+body .hackShowController >.content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 642px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  line-height: 18px;
+}
+html .hackShowController >.content img,
+body .hackShowController >.content img {
+  margin: 50px 0px 35px 0px;
+  width: 970px;
+}
+html .hackShowController >.content .section,
+body .hackShowController >.content .section {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+html .hackShowController >.content .section h3,
+body .hackShowController >.content .section h3 {
+  font-size: 18px;
+  font-family: "Merriweather";
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+html .hackShowController >.content .section p,
+body .hackShowController >.content .section p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  font-family: "Open Sans";
 }
