@@ -1,7 +1,7 @@
 Spine = require('spine')
 
 class Hack extends Spine.Model
-  @configure 'Hack', 'name', 'description', 'thumbImage',"mainImage", "event"
+  @configure 'Hack', 'name', 'description', 'thumbImage',"mainImage", "event","team", 'url'
 
   @fetch:=>
     for hack in require('/lib/hacks')

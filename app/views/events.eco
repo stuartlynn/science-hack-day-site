@@ -6,7 +6,7 @@
     <% for event in @events : %>
       <li class='event'>
         <img src='images/flags/<%=event.flagName()%>.png'></img>
-        <h2> <%=event.name%> </h2>
+        <h2> <a style='color:black' href='<%=event.url%>'><%=event.name%></a></h2>
         <p><%=event.country%> - <%=event.dates%></p>
       </li>
     <% end %>

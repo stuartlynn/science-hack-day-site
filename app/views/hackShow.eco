@@ -6,4 +6,17 @@
     <h3>About the hack</h3>
     <p><%-@hack.description%></p>
   </div>
+
+  <div class='section'>
+    <h3>Team</h3>
+    <p><%=@hack.team.join(", ")%></p>
+  </div>
+
+  <div class='section'>
+    <h3>Links</h3>
+    <p> <a style='color:black' href='<%=@hack.url%>'><%=@hack.url%></a></p>
+  </div>
+
+ 
+
 </div>
