@@ -5,7 +5,7 @@ hacks= [
 <p>Rump non andouille laborum pariatur. Rump shoulder pancetta andouille, in speck veniam shank adipisicing labore. Ea enim non, aliquip deserunt excepteur mollit ullamco voluptate eu biltong chuck ham hock occaecat laboris. In commodo ground round pastrami, ham hock strip steak et ea enim non pig ball tip sirloin chicken.</p>
 <p>Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</p>"
   thumbImage: "/images/sampleHackImage1.png"
-  mainImage: "/images/dnaCocktail.jpg"
+  mainImage: "/images/bannerImages/top-syneseizure.jpg"
   event: "San Francisco"
 ,
   name: "Arm Alarm"

@@ -50,6 +50,8 @@ html,body
           font-size: 40px
           margin-bottom: 0px
           padding-bottom: 0px
+          font-weight: 200
+          text-shadow: 0px 1px 6px rgba(0,0,0,5)
         p
           font-size: 14px
           margin: 0px
@@ -58,7 +60,9 @@ html,body
         float:left 
       .right
         float:right
+        margin-top: 15px
       .nav
+        font-family: "Open Sans"
         display: inline-block
         vertical-align: middle
         font-weight: 700
@@ -87,6 +91,7 @@ html,body
       float:left 
     .right
       float:right
+      margin-top: 12px
     .nav
       display: inline-block
       vertical-align: middle
@@ -127,10 +132,11 @@ html,body
             padding:0px
             width: 100%
           p 
-            font-size: 10px 
+            font-size: 12px 
             width: 100%
             margin: 0px
             padding: 0px
+            font-family: "Open Sans"
 
   .aboutController
     z-index: 0
@@ -142,26 +148,33 @@ html,body
       h2,h1
         font-weight: 200
         font-size: 32px
+        margin-bottom: 10px
       p
         margin-left:auto
         margin-right: auto
         width: 642px
         font-size: 12px
+        font-family: "Open Sans"
+        line-height: 18px
       img 
-        margin: 50px 0px 75px 0px
+        margin: 50px 0px 35px 0px
       .section
         width: 660px
         margin-left: auto
         margin-right: auto
         text-align: left
         h3
-          font-size: 12px
+          font-size: 18px
+          font-family: "Merriweather"
+          font-weight: 400
+          margin-bottom: 10px
         p
-          font-size: 9px
-          line-height: 15px
+          font-size: 12px
+          line-height: 20px
           text-align: left
-          margin: 0px
+          margin: 0px 0px 30px 0px 
           padding: 0px
+          font-family: "Open Sans"
     .lower
       border-box()
       background-color: #1F1F1F
@@ -217,6 +230,8 @@ html,body
           margin-right: 90px
           text-align: left
           margin-bottom: 40px
+          position: relative
+
           img 
             margin: 0px 20px 0px 0px
             padding:0px
@@ -225,6 +240,9 @@ html,body
           .info
             display: inline-block
             vertical-align: top
+            max-height: 214px
+            overflow-y: hidden
+            text-overflow: ellipsis
             h2
               font-size: 13px
               font-weight: 600
@@ -232,8 +250,55 @@ html,body
               padding:0px
               width: 100%
             p 
-              font-size: 10px 
+              font-size: 12px 
               width: 580px
-          
+
+              line-height: 20px
+              font-family: "Open Sans"
+          a
+            position: absolute 
+            right: 10px
+            bottom: 0px
+            color: black
+            font-size: 12px
             padding: 0px
 
+  .hackShowController
+    z-index: 0
+    >.content 
+      border-box()
+      z-index: 2
+      padding : 70px 100px 140px 100px
+      text-align: center
+      h2,h1
+        font-weight: 200
+        font-size: 32px
+        margin-bottom: 10px
+      p
+        margin-left:auto
+        margin-right: auto
+        width: 642px
+        font-size: 12px
+        font-family: "Open Sans"
+        line-height: 18px
+      img 
+        margin: 50px 0px 35px 0px
+        width: 970px
+      .section
+        width: 660px
+        margin-left: auto
+        margin-right: auto
+        text-align: left
+        h3
+          font-size: 18px
+          font-family: "Merriweather"
+          font-weight: 400
+          margin-bottom: 10px
+        p
+          font-size: 12px
+          line-height: 20px
+          text-align: left
+          margin: 0px 0px 30px 0px 
+          padding: 0px
+          font-family: "Open Sans"
+   

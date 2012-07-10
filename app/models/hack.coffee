@@ -12,5 +12,11 @@ class Hack extends Spine.Model
     console.log Math.floor(Math.random()*@count())
     @all()[Math.floor(Math.random()*@count())]
 
-
+  slug:=>
+    @name.replace(/\s/g,"_")
+  
+  @findBySlug:(slug)=>
+    results = @select (hack)=>
+      hack.slug()==slug
+    results[0]
 module.exports = Hack

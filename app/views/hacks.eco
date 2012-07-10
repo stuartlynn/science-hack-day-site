@@ -9,7 +9,9 @@
       <div class='info'>
         <h2> <span class='hackName'><%=hack.name%></span> // <span class='location'><%=hack.event%></span></h2>
         <p><%-hack.description%> </p>
+        
       </div>
+      <a href='/#/hacks/<%=hack.slug()%>'>read more ...</a>
     </li>
     <%end%>
   </ul>
