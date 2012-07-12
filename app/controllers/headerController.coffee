@@ -12,7 +12,7 @@ class HeaderController extends Spine.Controller
 
     Spine.Route.bind "change", (location) =>
       if location.path.indexOf('events') > -1 or location.path=='/'
-        @renderWithHack Hack.random()
+        @renderWithHack Hack.randomFeatured()
       else 
         @render()
         @el.animate
@@ -35,6 +35,6 @@ class HeaderController extends Spine.Controller
     ,400
 
     @el.css
-      "background-image" : "url(#{hack.mainImage})"
+      "background-image" : "url(#{hack.bannerImage})"
 
 module.exports = HeaderController

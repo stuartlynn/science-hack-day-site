@@ -56,13 +56,15 @@ body #headerController .content .hackInfo h1 {
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-weight: 200;
-  text-shadow: 0px 1px 6px #000;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.20);
 }
 html #headerController .content .hackInfo p,
 body #headerController .content .hackInfo p {
   font-size: 14px;
   margin: 0px;
   padding: 0px;
+  font-family: "Open Sans";
+  font-weight: 600;
 }
 html #headerController .content .left,
 body #headerController .content .left {
@@ -81,6 +83,7 @@ body #headerController .content .nav {
   font-weight: 700;
   margin-right: 20px;
   font-size: 12px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.20);
 }
 html #headerController .bottom,
 body #headerController .bottom {
@@ -113,7 +116,16 @@ body #footerController .left {
 html #footerController .right,
 body #footerController .right {
   float: right;
-  margin-top: 12px;
+  margin-top: 11px;
+}
+html #footerController .right span,
+body #footerController .right span,
+html #footerController .right a,
+body #footerController .right a {
+  color: #9e9e9e;
+  font-weight: 700;
+  font-family: "Open Sans";
+  font-size: 10px;
 }
 html #footerController .nav,
 body #footerController .nav {
@@ -149,9 +161,34 @@ body .eventsController >.content p {
   width: 642px;
   font-size: 12px;
 }
+html .eventsController >.content .button,
+body .eventsController >.content .button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 15px 20px 15px 20px;
+  color: #fff;
+  width: 235px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-weight: 600;
+  line-height: 17px;
+}
+html .eventsController >.content .button:hover,
+body .eventsController >.content .button:hover {
+  background-color: #000;
+}
 html .eventsController >.content ul,
 body .eventsController >.content ul {
-  padding: 64px 0px;
+  padding: 40px 0px;
   width: 100%;
 }
 html .eventsController >.content ul li,
@@ -160,7 +197,8 @@ body .eventsController >.content ul li {
   display: inline-block;
   vetical-align: top;
   text-align: center;
-  margin: 0px 50px 72px 0px;
+  padding: 0px;
+  margin: 20px 40px 72px 40px;
 }
 html .eventsController >.content ul li img,
 body .eventsController >.content ul li img {
@@ -267,22 +305,6 @@ body .aboutController .lower .orginize p {
   font-weight: 100;
   font-size: 18px;
 }
-html .aboutController .lower .orginize .button,
-body .aboutController .lower .orginize .button {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #dedede;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  padding: 15px 55px 15px 55px;
-  color: #212121;
-  width: 235px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
 html .hacksController,
 body .hacksController {
   z-index: 0;
@@ -330,14 +352,16 @@ body .hacksController >.content ul li img {
   padding: 0px;
   display: inline-block;
   vertical-align: top;
+  width: 300px;
 }
 html .hacksController >.content ul li .info,
 body .hacksController >.content ul li .info {
   display: inline-block;
   vertical-align: top;
-  max-height: 214px;
+  height: 214px;
   overflow-y: hidden;
   text-overflow: ellipsis;
+  position: realtive;
 }
 html .hacksController >.content ul li .info h2,
 body .hacksController >.content ul li .info h2 {
@@ -354,14 +378,32 @@ body .hacksController >.content ul li .info p {
   line-height: 20px;
   font-family: "Open Sans";
 }
-html .hacksController >.content ul li a,
-body .hacksController >.content ul li a {
+html .hacksController >.content ul li .info a,
+body .hacksController >.content ul li .info a {
   position: absolute;
-  right: 10px;
-  top: 0px;
-  color: #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+  width: 90px;
+  height: 24px;
+  right: 32px;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-weight: 600;
+  line-height: 2px;
   font-size: 12px;
-  padding: 0px;
+  bottom: 13px;
+  text-align: center;
+}
+html .hacksController >.content ul li .info a:hover,
+body .hacksController >.content ul li .info a:hover {
+  background-color: #000;
 }
 html .hackShowController,
 body .hackShowController {
@@ -392,6 +434,8 @@ body .hackShowController >.content p {
   font-size: 12px;
   font-family: "Open Sans";
   line-height: 18px;
+  margin-top: -5px;
+  padding: 0px;
 }
 html .hackShowController >.content img,
 body .hackShowController >.content img {

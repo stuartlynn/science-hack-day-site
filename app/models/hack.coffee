@@ -1,7 +1,7 @@
 Spine = require('spine')
 
 class Hack extends Spine.Model
-  @configure 'Hack', 'name', 'description', 'thumbImage',"mainImage", "event","team", 'url'
+  @configure 'Hack', 'name', 'description', 'thumbImage',"mainImage", "event","team", 'url','featured','bannerImage'
 
   @fetch:=>
     for hack in require('/lib/hacks')
@@ -9,8 +9,16 @@ class Hack extends Spine.Model
     Hack.trigger("refresh")
 
   @random:=>
-    console.log Math.floor(Math.random()*@count())
     @all()[Math.floor(Math.random()*@count())]
+
+  @featuredHacks:=>
+    @select (hack)=>
+      hack.featured
+
+  @randomFeatured:=>
+    featuredHacks = @featuredHacks()
+    featuredHacks[Math.floor(Math.random()*featuredHacks.length)]
+    
 
   slug:=>
     @name.replace(/\s/g,"_")

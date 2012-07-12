@@ -14,7 +14,7 @@
     <div class='hackInfo'>
       <img src='/images/arrow.png' ></img>
       <h1><%=@hack.name%></h1>
-      <p><a href='/#/hacks'> See more featured hacks</a></p>
+      <p><a href='/#/hacks'>See more featured hacks</a></p>
     </div>
   <%end%>
 

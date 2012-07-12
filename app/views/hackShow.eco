@@ -2,9 +2,11 @@
   <h2><%=@hack.name%></h2>
   <p><%=@hack.event%></p>
   <img src="<%=@hack.mainImage%>"></img>
+
+
   <div class='section'>
     <h3>About the hack</h3>
-    <p><%-@hack.description%></p>
+    <%-@hack.description%>
   </div>
 
   <div class='section'>
