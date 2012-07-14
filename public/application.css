@@ -324,6 +324,10 @@ body .HowToController >.content {
   padding: 70px 100px 140px 100px;
   text-align: center;
 }
+html .HowToController >.content a,
+body .HowToController >.content a {
+  font-weight: 900;
+}
 html .HowToController >.content h2,
 body .HowToController >.content h2,
 html .HowToController >.content h1,
