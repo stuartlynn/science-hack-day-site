@@ -47,11 +47,12 @@ hacks= [
   description: "<p>Can you interact with space travel while you're relaxing at home or busy at work? Astronauts are continuously orbiting the Earth – sometimes you can see a fair glint of their spacecraft, the International Space Station (ISS), overhead on a clear night when they happen to fly past your location. What if you could always see where they were without going outside or opening your laptop? Inspired by previous Science Hack Day ideas like the Near Earth Asteroid Lamp, a lamp that would light up each time an asteroid passed by the Earth, the ISS Globe continuously shows you where the ISS is overhead. The team of sciencehackers used a translucent globe, two hobby servos, a MakerBot for 3D printing a few gears, a Teensy microcontroller and a laser that was mounted inside of the globe. Firmware controlled interaction between a laptop and the servos and a Python client controlled interaction between the microcontroller and the servos. The end product was a globe with a glowing red dot that would show you where the ISS currently was throughout the day. </p>"
   mainImage:"/images/hackImages/ISSGlobe_large.jpg"
   thumbImage: "/images/hackImages/ISSGlobe_small.jpg"
+  bannerImage:"/images/bannerImages/top-issglobe.jpg"
   event: "San Francisco"
   photoCredit:'Matt Biddulph'
   url: "http://mygalaxies.co.uk/"
   team: ["Nathan Bergey", "Steven Davis", "Glenn LeBrasseur", "Nicolas Weidinger", "Rachel Weidinger"]
-  featured: false
+  featured: true
 ,
 
   name: "Quake Canary"
