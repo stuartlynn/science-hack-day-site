@@ -30,7 +30,7 @@ events = [
   url: "http://sciencehackdaydublin.com/"
 ,
   name: "Nairobi"
-  country: "kenya"
+  country: "Kenya"
   dates: "13-14 April"
   url: "http://www.sciencehackday.or.ke/"
 ,
