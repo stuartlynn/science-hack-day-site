@@ -1,6 +1,5 @@
 <div class='content'>
   <h2><%=@hack.name%></h2>
-  <p><%=@hack.event%></p>
   <img src="<%=@hack.mainImage%>"></img>
 
 

@@ -1,11 +1,11 @@
 <div class='content'>
   <div class='left'>
     <img class='nav' src='images/shdLogo.png' />
-    <div class='nav spacer'>All contents &copy; copyright 2012</div>
+    <div class='nav spacer'>Want to chat about Science Hack Day Email <a href="mailto:ariel@sciencehackday.org">ariel@sciencehackday.org</a></div>
 
   </div>
 
   <div class='right'>
-    <span>Developed and Designed by <a href='https://twitter.com/stuart_Lynn'>Stuart Lynn</a> & <a href='https://twitter.com/davidmill'>David Miller</a></span> 
+    <span>Website developed and designed by <a href='https://twitter.com/stuart_Lynn'>Stuart Lynn</a> & <a href='https://twitter.com/davidmill'>David Miller</a></span> 
   </div>
 </content>

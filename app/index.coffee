@@ -7,6 +7,7 @@ AboutController = require('controllers/aboutController')
 EventsController =  require('controllers/eventsController')
 HacksController = require('controllers/hacksController')
 HackShowController = require('controllers/hackShowController')
+HowToController = require('controllers/howToController')
 
 Event  = require('models/event')
 Hack  = require('models/hack')
@@ -19,6 +20,8 @@ class App extends Spine.Stack
     events    : EventsController
     hacks     : HacksController
     hackShow  : HackShowController
+    howto     : HowToController
+
   routes:
     '/'            : 'events'
     '/hacks/'      : 'hacks'
@@ -28,6 +31,7 @@ class App extends Spine.Stack
     '/about'       : 'about'
     '/events/'     : 'events'
     '/events'      : 'events'
+    '/howto'       : 'howto'
 
   
   default: 'home'

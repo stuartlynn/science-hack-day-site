@@ -1,9 +1,9 @@
 <div class='content'>
-  <h2>About Science Hack Days</h2>
+  <h2>About Science Hack Day</h2>
   <p>Science Hack Days bring together designers, developers, scientists, and other geeks in the same physical space for a breif but intense period of collaboration, hacking and building cool stuff.</p>
   <img src="/images/aboutHackImage.png"></img>
   <div class='section'>
-    <h3>What is a science hack day?</h3>
+    <h3>What is a Science Hack Day?</h3>
     <p>The mission of Science Hack Day is to get excited and make things with science! A Hack Day is a 48-hour-all-night event that brings together designers, developers, scientists, citizen scientists, web geeks and anyone with good ideas in the same physical space for a brief but intense period of collaboration, hacking, and building ‘cool stuff’. Hack Days were originally created by Yahoo! in 2005 and soon after became a worldwide trend. By collaborating on focused tasks during this short period, small groups of hackers are capable of producing remarkable results. Some Hack Days have a specific focus. There have already been very successful Music Hack Days and Government Hack Days. It’s time for a Hack Day focused on science!</p>
   </div>
 
@@ -17,5 +17,9 @@
   <div class='section'>
     <h3>Who is this for?</h3>
     <p>Imagine a Venn diagram showing the intersection of web geeks and science geeks …that’s a pretty big intersection. Science Hack Day is for anyone with an interest in bringing science and technology together. If you’re a coder, designer, scientist, hacker or just an enthusiastic person with good ideas, Science Hack Day is for you.<p>
+  </div>
+  <div class='section'>
+    <h3>More questions?</h3>
+    <p>Want to chat more about Science Hack Day? Email Ariel Waldman at <a href='mailto:ariel@sciencehackday.org'>Want to chat more about Science Hack Day? Email Ariel Waldman at ariel@sciencehackday.org</a><p>
   </div>
 </div>

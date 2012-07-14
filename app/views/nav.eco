@@ -6,20 +6,23 @@
     <div class='nav'><a href='/#/about'>About</a></div>
     <div class='nav'><a href='/#/events'>Events</a></div>
     <div class='nav'><a href='/#/hacks'>Hacks</a></div>
+    <div class='nav'><a href='http://sciencehackday.pbworks.com/w/page/24497030/Home'>Wiki</a></div>
+
 
   </div>
 
   <%console.log "in template", @hack%>
   <% if @hack : %>
     <div class='hackInfo'>
-      <img src='/images/arrow.png' ></img>
       <h1><%=@hack.name%></h1>
-      <p><a href='/#/hacks'>See more featured hacks</a></p>
+      <p><a href='/#/hacks'>See more featured hacks</a>      
+
+      <img src='/images/arrow.png' ></img>
+</p>
     </div>
   <%end%>
 
   <div class='right'>
-    <a href='http://www.facebook.com/SHDChi'><img class='nav' src='images/facebook.png'></img></a>
     <a href='http://twitter.com/sciencehackday'><img class='nav' src='images/twitter.png'></img></a>
   </div>
 

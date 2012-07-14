@@ -6,57 +6,57 @@ events = [
 ,
   name: 'Eindhoven'
   country: "Netherlands"
-  dates : "1 June 2012"
+  dates : "1-2 June 2012"
   url: "http://www.sciencehackdayeindhoven.nl/"
 ,
   name: "Houston"
   country: "USA"
-  dates: "26 May 2012"
+  dates: "26-27 May 2012"
   url: "http://www.scihackdayhou.com/"
 ,
   name: "Houston"
   country: "USA"
-  dates: "26 May 2012"
+  dates: "26-27 May 2012"
   url: ""
 ,
   name: "Cape Town"
   country: "South Africa"
-  dates: "23 January 2012"
+  dates: "23-24 January 2012"
   url: "http://capetown.sciencehackday.com/"
 ,
   name: "Dublin"
-  country: "Ierland"
-  dates: "3 March 2012"
+  country: "Ireland"
+  dates: "3-4 March 2012"
   url: "http://sciencehackdaydublin.com/"
 ,
   name: "Nairobi"
   country: "kenya"
-  dates: "13 April"
+  dates: "13-14 April"
   url: "http://www.sciencehackday.or.ke/"
 ,
   name: "San Francisco"
   country: "USA"
-  dates: "13 November 2011"
+  dates: "13-14 November 2011"
   url: "http://sf.sciencehackday.com/"
 ,
   name: "Mexico City"
   country: "Mexico"
-  dates: "26 October 2011"
+  dates: "26-27 October 2011"
   url: "http://mexicocity.sciencehackday.com/"
 ,
   name: "Cincinnati"
   country: "USA"
-  dates: "23 October 2011"
+  dates: "23-24 October 2011"
   url: "http://cincinnati.sciencehackday.com/"
 ,
   name: "San Francisco"
   country: "USA"
-  dates: "13 November 2010"
+  dates: "13-14 November 2010"
   url: "http://sf.sciencehackday.com/"  
 ,
   name: "London"
   country: "UK"
-  dates: "19 June 2010"
+  dates: "19-20 June 2010"
   url: "http://london2010.sciencehackday.com/"
 ]
 

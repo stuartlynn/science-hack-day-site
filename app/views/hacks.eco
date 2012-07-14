@@ -1,11 +1,14 @@
 <div class='content'>
-  <h1>The Hacks</h1>
-  <p>People organically form multidisciplinary teams over the course of a weekend: partical physicists team up with designers, marketers join forces with open source rocket scientists, writers collaborate with molecular biologists, etc.</p>
+  <h1>Featured Hacks</h1>
+  <p>People organically form multidisciplinary teams over the course of a weekend: partical physicists team up with designers, marketers join forces with open source rocket scientists, writers collaborate with molecular biologists, etc. Here's just a few of the things that have been created:</p>
 
   <ul class='hacks'>
     <%for hack in @hacks : %>
     <li>
       <img src='<%=hack.thumbImage%>' ></img>
+      <% if hack.photoCredit? : %>
+        <p class='photoCredit'>Photo by <%=hack.photoCredit%></p>
+      <%end%>
       <div class='info'>
         <h2> <span class='hackName'><%=hack.name%></span> </h2>
         <p><%-hack.description[0..400]%>... </p>  

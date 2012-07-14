@@ -5,6 +5,7 @@ hacks= [
   mainImage:"/images/hackImages/Syneseizure_large.jpg"
   thumbImage: "/images/hackImages/Syneseizure_small.jpg"
   event: "San Francisco"
+  photoCredit: "Matt Biddulph"
   url: "http://syneseizure.wordpress.com/"
   team: ["Bala Ramamurthy", "Watson Watson", "Lillian Fritz-Laylin", "Meredith Carpenter Hamilton", "Marissa Fessenden", "Parker Imrie", "Tymm Twillman", "Greg Friedland", "Fen Lipkowitz","Liam Holt"]
   featured: true 
@@ -14,6 +15,7 @@ hacks= [
   mainImage:"/images/hackImages/ArmAlarm_large.jpg"
   thumbImage: "/images/hackImages/ArmAlarm_small.jpg"
   event: "Chicago"
+  photoCredit:"Ariel Waldman"
   url: "https://www.youtube.com/watch?v=eOrDKsqFTT8"
   team: ["Nathan Krapf", "Lou Nigra", "Elaine Cheng", "Andrew Chen", "Andy Scarpelli", "Christina Yang"]
   featured: false
@@ -25,6 +27,7 @@ hacks= [
   thumbImage: "/images/hackImages/IsodrafTypeface_small.jpg"
   event: "San Francisco"
   url: "http://twitpic.com/7dpbrd"
+  photoCredit:"Matt Biddulph"
   team: ["David Harris"]
   featured: false
 ,
@@ -45,6 +48,7 @@ hacks= [
   mainImage:"/images/hackImages/ISSGlobe_large.jpg"
   thumbImage: "/images/hackImages/ISSGlobe_small.jpg"
   event: "San Francisco"
+  photoCredit:'Matt Biddulph'
   url: "http://mygalaxies.co.uk/"
   team: ["Nathan Bergey", "Steven Davis", "Glenn LeBrasseur", "Nicolas Weidinger", "Rachel Weidinger"]
   featured: false
@@ -76,6 +80,7 @@ hacks= [
   mainImage:"/images/hackImages/DNAquiri_large.jpg"
   thumbImage: "/images/hackImages/DNAquiri_small.jpg"
   event: "San Francisco"
+  photoCredit: "Matt Biddulph"
   url: "http://www.instructables.com/id/DNAquiri-the-delicious-DNA-extraction/"
   team: ["Patrik D'haeseleer", "Bonnie Barrilleaux", "Lily Lew", "Joseph Elsbernd", "Michelle Peters"]
   featured: true
@@ -86,6 +91,7 @@ hacks= [
   thumbImage: "/images/hackImages/ParticleWindchime_small.jpg"
   mainImage: "/images/hackImages/ParticleWindchime_large.jpg"
   event: "San Francisco"
+  photoCredit:" Brad Plummer"
   url: "http://www.mattbellis.com/windchime/"
   team: [ "Matt Bellis", "Derek Gathright", "David Harris", "Jeremy Nuger","Michael Parrish", "Janine Scott", "Ole Waldmann"]
   featured: false

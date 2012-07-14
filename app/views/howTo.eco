@@ -1,0 +1,183 @@
+<div class='content'>
+  <h2>How to create Science Hack Day</h2>
+  <p>Science Hack Days bring together designers, developers, scientists, and other geeks in the same physical space for a breif but intense period of collaboration, hacking and building cool stuff.</p>
+  <img src="/images/aboutHackImage.png"></img>
+
+
+  <div class='section'>
+    <h2>Familiarize yourself with the spirit and guidelines of hack days</h2>
+
+    <div class='subsection'>
+      <h3> What is Science Hack Day?</h3>
+      <p>The mission of Science Hack Day is to get excited and make things with science! A Hack Day is a 48-hour-all-night event that brings together designers, developers, scientists, citizen scientists, web geeks and anyone with good ideas in the same physical space for a brief but intense period of collaboration, hacking, and building ‘cool stuff’. Hack Days were originally created by Yahoo! in 2005 and soon after became a worldwide trend. By collaborating on focused tasks during this short period, small groups of hackers are capable of producing remarkable results. Some Hack Days have a specific focus. There have already been very successful Music Hack Days and Government Hack Days. It’s time for a Hack Day focused on science!</p>
+
+      <p> This video is a great overview of what larger Hack Days are often like:</p>
+      <iframe src="http://player.vimeo.com/video/232517" width="400" height="229" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      <p><a href="http://vimeo.com/232517">London Hack Day Video</a> from <a href="http://vimeo.com/plasticbag">Tom Coates</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+    </div>
+
+    <div class='subsection'>
+      <h3>What’s a Hack?</h3>
+      <p>Imagine a Venn diagram showing the intersection of web geeks and science geeks …that’s a pretty big intersection. Science Hack Day is for anyone with an interest in bringing science and technology together. If you’re a coder, designer, scientist, hacker or just an enthusiastic person with good ideas, Science Hack Day is for you.</p>
+    </div>
+
+    <div class='subsection'>
+      <h3>How much does it cost?</h3>
+      <p>Science Hack Day is intended to be a completely free event for people to attend. This is achieved through the gracious support of sponsors and ideally a venue that offers their space for free as an in-kind sponsorship.</p>
+
+    </div>
+    <div class='subsection'>
+      <h3>Is there a central Science Hack Day orginizer?</h3>
+      <p>Science Hack Day is not an organization, it's a grassroots global network of volunteers. This isn't a formal franchise, so feel free to be creative when organizing your Science Hack Day!</p>
+    </div>
+
+    <div class='subsection'>
+      <h3>Recommended reading</h3>
+      <p><a href='http://vimeo.com/232517'>London Hack Day (video)</a> a great video that captures the overview and spirit of all Hack Days</p>
+      <p><a href='http://vimeo.com/232517'>London Hack Day (video)</a> a great video that captures the overview and spirit of all Hack Days</p>
+      <p><a href='http://sf.sciencehackday.com/posts/2010/11/we-have-liftoff/'>We have lift-off! Science Hack Day SF 2010</a></p>
+      <p><a href='http://adactio.com/journal/1674/'>Making Science Hack Day happen</a></p>
+      <p><a href='http://www.ideaconnection.com/open-innovation-success/From-Concepts-to-Products-in-Under-48-Hours-00290.html'>From Concepts to Products in Under 48 Hours</a></p>
+      <p><a href='http://www.ideaconnection.com/open-innovation-success/From-Concepts-to-Products-in-Under-48-Hours-00290.html'>Music Hack Day NYC 2011 (video)</a></p>
+      <p><a href='http://gov2.net.au/blog/2009/11/05/govhack/'>GovHack: govt data + hackers + caffeine == good times</a></p>
+    </div>
+
+  </div>
+
+  <div class='section'>
+    <h3>Recruit your tream</h3>
+
+   
+    <p>Whether it's people who will actively help you organize the event or just a group of friends who agree to give you feedback along the way, having a trusted circle of people who can help in their spare time leading up to and during the event is key.</p>
+    <p>Once you decide you'd like to organize a Science Hack Day, add a page for your city with your contact info to the wiki so others can reach you. </p>
+  </div>
+
+  <div class='section'>
+    <h3>Have a kick-off meeting</h3>
+    <p>Once you've recruited your team and read through all the Science Hack Day guidelines, organize a kick-off meeting to discuss what you all see as being the scope, logistics and immediate action items for the Science Hack Day. </p>
+    <p>It helps to write a list of things you want to discuss before the meeting begins. Generally, be sure to cover: the big picture of what you want the event to be, how to get a venue and sponsors and from who, event logistics and budget (food, tables, insurance, developer-needs, clean-up, etc.), next action items (be sure to assign responsibilities!) and anything else you've got in mind. </p>
+
+  </div>
+
+  <div class='section'>
+  <p>Hardly anything can be planned until you lock down a venue.</p>
+
+    <div class='subseciton'>
+      <h3>Obtain a venue for free</h3>
+      <p>Obtain a venue for free in return for an in-kind top tier sponsorship. Offices and coworking spaces that you have a relationship with or have friends working at often are good places to start asking.</p>
+    </div>
+    <div class='subsection'>
+      <h3>When you do find a venue...</h3>
+      <p>When you do find a venue, ask about if you need to hire professional security, agree on what the clean-up plan is, and double-check that the venue is okay with using their existing venue/event insurance (it's recommended that you consult a lawyer about any contracts, waivers or agreements). The venue is also considered a sponsor, so send them a sponsor agreement (example of a sponsor agreement).</p>
+    </div>
+    <div class='subsection'>
+      <h3>Things to look for while you're venue hunting</h3>
+      <p>
+        Capacity limit (keep in mind you need space for everyone to spread out) <br />
+        A large open space and small rooms for teams or lightning talks<br />
+        Walking distance from public transportation (don't make it hard for people to attend)<br/>
+        Walking distance from restaurants/hardware stores/shops (not a requirement, but it often makes people feel more comfortable)<br />
+        Comfortable/enough seating (remember that you're going to be mostly sitting for an entire weekend, rent comfortable seating if needed)<br />  
+        WiFi that has a proven history of supporting the number of participants you want (it is *very* important to have solid internet access that can handle heavy usage) and enough outlets for powerstrips</br>
+        Overall comfort for spending 48 hours in (warehouses with poor insulation or noise filtering are not usually fun to spend more than a few hours in)<br />
+        Ability to spend the entire night working in the venue (this is important to the culture of Hack Days and giving everyone a full 24 hours to hack)</br>
+      </p>
+    </div>
+
+    <div class='section'>
+      <h2>Event Planning</h2>
+      
+      <div class='subsection'>
+        <h3>Be organized!</h3>
+        <p>You will quickly find out that the event takes quite a bit of organization. It's recommended that you create a private wiki using PBworks to organize information for yourself and any co-organizers. Record things like meeting notes, potential sponsors, potential venues, to-do lists, miscellaneous ideas, logistics, cost estimates, co-organizer responsibilities, event schedule, judging structure, email templates to send to attendees, etc.</p>
+      </div>
+ 
+      <div class='subsection'>
+        <h3>Set a date </h3>
+        <p>It's recommended to set a date at least 3 months in advance to allow for planning, acquiring sponsors and promotion.</p>
+      </div>
+      <div class='subection'>
+        <h3>Estimate all costs</h3>
+        <p>Science Hack Day is a free event to attend and provides 5 free meals, snacks and refreshments for all attendees so that everyone can focus on hacking (lessons from SHD London: less beer, more juice and caffeine; less junk food, more fruit). Providing enough food, snacks and refreshments for everyone at all hours will take up the majority of costs. Science Hack Day SF hosted ~100 people with the total event cost of $3800 USD; Science Hack Day London hosted ~100 people with the total event cost of $6500 USD. Here is the breakdown of costs from Science Hack Day SF 2010:</p>
+        <p>
+        Bagels & Cream Cheese (from Panera) for Saturday and Sunday breakfasts: $180<br />
+        Box Sandwiches w/ Chips & Cookie (from Panera) for Saturday and Sunday lunches: $1860<br />
+        Pasta (from local restaurant) for Saturday dinner: $400 (negotiated a sponsorship in return for a big discount)<br />
+        Snacks (fruit, soda, beer, snacks, juice, coffee, milk, cupcakes, etc.): $1008<br />
+        Water: free (from the venue) <br />
+        Eating utensils: free (from the venue)<br />
+        Chairs & Tables: free (from the venue)<br />
+        Power strips & WiFi: free (from the venue)<br />
+        Tip for Cleaning Service: $100 <br />
+        Extra prizes (in addition to donated prizes): $179<br />
+        Incidentals: $73<br />
+        Figure out what the minimum cost of the event is by estimating all the necessities. Also figure out what your "nice to have" budget would be if you're able to obtain enough sponsorship to cover extras like tote bags, stickers, prizes, etc.</p>
+      </div>
+      <div class='subsection'>
+        <h3>Make a website & wiki section</h3>
+        <p>Create your own site or contact ariel@sciencehackday.org about having a Wordpress blog installed for http://sciencehackday.com/yourcity/ and getting access to use the @sciencehackday Twitter account.Start blogging before the event! Update people on the status of planning, create a call for sponsors, point to interesting things that could be used or inspire people for your Science Hack Day.Create a section on http://sciencehackday.pbworks.com for your city - you'll probably want to have pages where people are encouraged to list and sign up for ideas leading up to the event. Once you've set a date for the event, contact ariel@sciencehackday.org to be listed on the front page of http://sciencehackday.com.</p>
+      </div>
+
+      <div class='subsection'>
+        <h3>Find sponsors </h3>
+        <p>Create a sponsorship prospectus based on your cost estimate (e.g. 2 sponsor levels could be $500-999 and $1000-5000, see example sponsorship prospectus from SHD SF 2011).Publicly promote that you're looking for sponsors and actively reach out to various organizations.</p>
+      </div>
+      <div class='subsection'>
+        <h3>  List & invite a "seed group" (important)</h3>
+        <p>Create a list of various local people you know would make the event awesome (these can be friends, coworkers or just people you've heard of) and would bring much needed diversity to the event. Be sure to spend some dedicated time brainstorming people who are: already familiar with unconferences or hacking culture (it will help those unfamiliar with Hack Days at the event) cientists, hardware hackers, designers, developers and enthusiastic people in general (ask around if you don't know of any people from one of these areas)<br />
+        women & minorities: Hack Days often trend to be mostly white male developers in their 20s and 30s. The most efficient way to create an inclusive and diverse event is to take the time to personally invite women and other minorities. This is an especially important consideration for Hack Days, where everyone is together in a venue for 2 days and overnight (i.e. can you imagine how it would feel awkward to be the only woman if you want to crash overnight?).
+        Invite your seed group a few days before you open up registration to everyone. Here is an example invite email.
+        </p>
+      </div>
+ 
+      <div class='subsection'>
+        <h3>Set up attendee registration method </h3>
+        <p>Decide what your attendee sign-up limit is before you have to add people to a waitlist. It is normal to expect ~25% drop-out rate from the total number of people who sign up, so you might want to set your sign-up limit slightly higher than your venue capacity.<br />
+        Decide when you want to open registration (recommended time: ~6 weeks before the event). <br />
+        Decide if you want people to register via wiki (a bit messy), Google form (asking some basic questions of attendees), or Eventbrite (organized ticket system). This is an example of the Google Doc SHD SF 2010 used to confirm registration.<br />
+        Create a public list of all the confirmed attendees (and maybe their Twitter accounts) so that they can find each other easily.
+        </p>
+      </div>
+      <div class='subsection'>
+        <h3>Identify judges & create competition categories </h3>
+        <p>Identify a panel of judges for the hack presentations <br />
+        Create a few competition categories for people to be interested in (examples: best use of data, best visual design, people's choice award, best hardware hack)
+        </p>
+      </div>
+      <div class='subsection'>
+        <h3> Promote & communicate how Science Hack Day works</h3>
+        <p>Once you've found a venue, set a date and opened up registration - start promoting the event! It's also helpful if your website for the event explains what a Science Hack Day is, what the schedule looks like and maybe embed this video for those who want to get a feel for the event culture.</p>
+      </div>
+    </div>
+
+    <div class='seciton'>
+    <h2>Attendee Communication</h2>
+    <p>It's the organizer's responsibility to set the attendees up for success so that they feel comfortable upon arriving at Science Hack Day. This can include emailing the attendees individually (confirming their registration, encouraging them to add rough ideas to the wiki, posting your email publicly for people to direct questions/concerns to, sending an "everything you need to know" email) and/or organizing a very informal pre-Science Hack Day meetup at a public place.
+    </p>
+
+
+    <div class='seciton'>
+      <h2>At the event</h2>
+
+      <div class='subsection'>
+        <h3>Schedule & Talks</h3>
+        <p>Here's an example schedule from Science Hack Day SF 2010. If your event has under 200 attendees, people often enjoy doing a very-rapid-fire-3-tag-intro of all the attendees (where each person stands up, says their name and 3 tags that represent them or their interests). It's recommended that you keep introductory talks to a minimum. In the introductory talk, mention your motivations for organizing and what the general spirit of Science Hack Day is, tell attendees not to worry if they don't find a team within the first couple of hours (much of the event is about eavesdropping and asking people what they're working on), housekeeping (bathroom locations, wifi, spending the night), the event schedule, and thank sponsors. Lightning talks (15 min. talks) should ideally happen in separate rooms so that people can begin hacking as quickly as possible if wanted. Lightning talks should directly relate to the event: someone presenting a dataset that can be used, a programming language that can help, a hack idea that could recruit more people to work on it, etc.</p>
+      </div>
+      
+      <div class='subsection'>
+        <h3>Presentations & Judging</h3>
+        <p>At the end of the event, all hacks should be presented very quickly (~120 seconds, depending on number of attendees) - be sure to plan time accordingly (e.g. if there are 30 hacks at 120 seconds each, the presentations will last *at least* an hour not including time for fumbling around or technical difficulties. Be thoughtful about how long everyone will be willing to sit still. The short timing often makes the presentations fun - especially if the countdown is projected on a wall for everyone to see.<br />
+
+        Build in time for the panel of judges to decide which teams win which competition categories and for the attendees to submit their vote for the "People's Choice Award".
+        </p>
+      </div>
+
+  </div>
+
+  <div class='seciton'>
+    <h2>After the event</h2>  
+    <p>Sleep! Then write a blog post summarizing the event/hacks and be sure to send thank you notes to everyone who helped make the event an amazing experience!</p>
+  </div>
+
+</div>
