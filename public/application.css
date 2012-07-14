@@ -66,6 +66,12 @@ body #headerController .content .hackInfo p {
   font-family: "Open Sans";
   font-weight: 600;
 }
+html #headerController .content .hackInfo img,
+body #headerController .content .hackInfo img {
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
 html #headerController .content .left,
 body #headerController .content .left {
   float: left;
@@ -305,6 +311,79 @@ body .aboutController .lower .orginize p {
   font-weight: 100;
   font-size: 18px;
 }
+html .HowToController,
+body .HowToController {
+  z-index: 0;
+}
+html .HowToController >.content,
+body .HowToController >.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 70px 100px 140px 100px;
+  text-align: center;
+}
+html .HowToController >.content h2,
+body .HowToController >.content h2,
+html .HowToController >.content h1,
+body .HowToController >.content h1 {
+  font-weight: 200;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+html .HowToController >.content p,
+body .HowToController >.content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 642px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  line-height: 18px;
+}
+html .HowToController >.content img,
+body .HowToController >.content img {
+  margin: 50px 0px 35px 0px;
+}
+html .HowToController >.content .section,
+body .HowToController >.content .section {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+html .HowToController >.content .section h2,
+body .HowToController >.content .section h2 {
+  font-size: 18px;
+  font-family: "Merriweather";
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+html .HowToController >.content .section p,
+body .HowToController >.content .section p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  font-family: "Open Sans";
+}
+html .HowToController >.content .section a,
+body .HowToController >.content .section a {
+  color: #000;
+}
+html .HowToController >.content .section .subsection h3,
+body .HowToController >.content .section .subsection h3 {
+  font-size: 15px;
+  font-family: "Merriweather";
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+html .HowToController >.content .section .subsection p,
+body .HowToController >.content .section .subsection p {
+  margin: 0px 0px 10px 0px;
+  font-size: 12px;
+}
 html .hacksController,
 body .hacksController {
   z-index: 0;
@@ -353,6 +432,14 @@ body .hacksController >.content ul li img {
   display: inline-block;
   vertical-align: top;
   width: 300px;
+}
+html .hacksController >.content ul li p.photoCredit,
+body .hacksController >.content ul li p.photoCredit {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  font-size: 10px;
+  color: #fff;
 }
 html .hacksController >.content ul li .info,
 body .hacksController >.content ul li .info {
