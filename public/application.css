@@ -81,6 +81,10 @@ body #headerController .content .right {
   float: right;
   margin-top: 15px;
 }
+html #headerController .content .right .twitterLogo,
+body #headerController .content .right .twitterLogo {
+  width: 25px;
+}
 html #headerController .content .nav,
 body #headerController .content .nav {
   font-family: "Open Sans";
@@ -90,6 +94,10 @@ body #headerController .content .nav {
   margin-right: 20px;
   font-size: 12px;
   text-shadow: 0px 1px 2px rgba(0,0,0,0.20);
+}
+html #headerController .content .hackDayLogo,
+body #headerController .content .hackDayLogo {
+  width: 45px;
 }
 html #headerController .bottom,
 body #headerController .bottom {
