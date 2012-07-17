@@ -1,7 +1,7 @@
 Spine = require('spine')
 
 class Event extends Spine.Model
-  @configure 'Event', 'name', 'country', 'dates', 'url'
+  @configure 'Event', 'name', 'country', 'dates', 'url', 'retina'
 
   @fetch:=>
     for event in require("lib/events")

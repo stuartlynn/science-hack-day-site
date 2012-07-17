@@ -1,6 +1,6 @@
 <div class='content'>
   <div class='left'>
-    <img class='nav' src='images/shdLogo.png' />
+    <img width=40 class='nav' src='images/shdLogo.png' />
     <div class='nav spacer'>Want to chat about Science Hack Day Email <a href="mailto:ariel@sciencehackday.org">ariel@sciencehackday.org</a></div>
 
   </div>

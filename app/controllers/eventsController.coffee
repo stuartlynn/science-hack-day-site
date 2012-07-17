@@ -12,6 +12,7 @@ class EventsController extends Spine.Controller
   render:=>
     @html require('/views/events')
       events: Event.all()
-      
+ 
+
 
 module.exports = EventsController
